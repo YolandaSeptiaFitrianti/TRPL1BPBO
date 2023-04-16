@@ -1,14 +1,14 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package yolanda01042023;
 
 /**
  *
- * @author YOLANDA SEPTIA FITRI
+ * @author User
  */
-
 public class StudentRecord {
     private String name;
     private String address;
@@ -17,10 +17,11 @@ public class StudentRecord {
     private double englishGrade;
     private double scienceGrade;
     private double average;
+    private char nilaiHuruf;
     
     private static int studentCount; //class variabel
     
-        public StudentRecord()
+    public StudentRecord()
     {
         //area inisialisasi kode; 
         studentCount++;
@@ -45,6 +46,11 @@ public class StudentRecord {
         englishGrade = eGrade; 
         scienceGrade = sGrade;
         studentCount++;
+    }
+    
+    public StudentRecord(char nHuruf)
+    {
+        nilaiHuruf = nHuruf;
     }
     //*************************************************
     public String getName(){
@@ -100,22 +106,49 @@ public class StudentRecord {
         return average;
     }
     ///////////////////////////////////////////
+    public char getnilaiHuruf(){
+        if(getAverage() >80){
+            nilaiHuruf = 'A';
+        }
+        else if(getAverage() >65){
+            nilaiHuruf = 'B';
+        }
+        else if(getAverage() >55){
+            nilaiHuruf = 'C';
+        }
+        else if(getAverage() >40){
+            nilaiHuruf = 'D';
+        }
+        else{
+            nilaiHuruf = 'E';
+        }
+        return nilaiHuruf;
+    }
+    //////////////////////////////////////////
+    public void setnilaiHuruf(char nilaiHuruf){
+        this.nilaiHuruf = nilaiHuruf;
+    }
+    //////////////////////////////////////////
     public static int getstudentCount(){
         return studentCount;
     }
     //////////////////////////////////////////
-    public void print( String temp )
+    public void print(String temp)
     { 
-        System.out.println("Name:" + name); 
-        System.out.println("Address:" + address); 
-        System.out.println("Age:" + age); 
+        System.out.println("Name            :" + name); 
+        System.out.println("Address         :" + address); 
+        System.out.println("Age             :" + age); 
     } 
     
     public void print(double eGrade, double mGrade, double sGrade)
     {
-        System.out.println("Name            :" + name); 
         System.out.println("Math Grade      :" + mGrade); 
         System.out.println("English Grade   :" + eGrade); 
         System.out.println("Science Grade   :" + sGrade);
+    }
+    
+    public void print(char nHuruf)
+    {
+        System.out.println("Nilai Huruf     :" + nHuruf);
     }
 }
