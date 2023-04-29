@@ -13,18 +13,18 @@ public class TestXOR {
     public static void main(String[] args){
         boolean vel1 = true;
         boolean vel2 = true;
-        System.out.println(val1 ^ val2);
+        System.out.println(vel1 ^ vel2);
         
-        val1 = false;
-        val2 = true;
-        System.out.println(val1 ^ val2);
+        vel1 = false;
+        vel2 = true;
+        System.out.println(vel1 ^ vel2);
         
-        val1 = false;
-        val2 = false;
-        System.out.println(val1 ^ val2);
+        vel1 = false;
+        vel2 = false;
+        System.out.println(vel1 ^ vel2);
         
-        val1 = true;
-        val2 = false;
-        System.out.println(val1 ^ val2);
+        vel1 = true;
+        vel2 = false;
+        System.out.println(vel1 ^ vel2);
     }
 }
