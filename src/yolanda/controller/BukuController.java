@@ -70,9 +70,10 @@ public class BukuController {
         }
         
         public void tampilData(){
-            DefaultTableModel tabelModel = (DefaultTableModel) formbuku.getTblBuku().getModel();
-            formbuku.getTblBuku().getModel();
-            java.util.List<Buku> list = bukuDao.getAll();
+            DefaultTableModel tabelModel =
+              (DefaultTableModel) formbuku.getTblBuku().getModel();
+               tabelModel.setRowCount(0);
+               java.util.List<Buku> list = bukuDao.getAll();
             for(Buku buku : list){
                 Object[] data = {
                     buku.getKode(),

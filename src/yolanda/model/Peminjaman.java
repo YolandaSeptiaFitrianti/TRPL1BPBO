@@ -4,7 +4,6 @@
  */
 package yolanda.model;
 
-import yolanda27042023.*;
 
 /**
  *
