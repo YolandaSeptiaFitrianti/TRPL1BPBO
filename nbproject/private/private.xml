@@ -3,8 +3,33 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Yola/controller/AnggotaController.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/AnggotaDao.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Yola/view/ViewAnggota.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/controller/AnggotaController.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/PeminjamanDaoImpl.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/PengembalianDaoImpl.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/view/FormBuku.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/Peminjaman.java</file>
             <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/controller/PengembalianController.java</file>
-            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/view/FormPengembalian.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Uts_Paket_B/PegawaiDaoImpl.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Yola/dao/AnggotaDao.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/view/FormAnggota.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/BukuDao.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Uts_Paket_B/PegawaiController.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/BukuDaoImpl.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/controller/PeminjamanController.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Yola/dao/AnggotaDaoImpl.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Yola/db/DbHelper.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Uts_Paket_B/PegawaiDao.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/controller/BukuController.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/PengembalianDao.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/AnggotaDaoImpl.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Yola/model/Anggota.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/Anggota.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Uts_Paket_B/FormPegawai.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/Uts_Paket_B/Pegawai.java</file>
+            <file>file:/C:/Users/YOLANDA%20SEPTIA%20FITRI/OneDrive/Documents/GitHub/TRPL1BPBO/src/yolanda/model/PeminjamanDao.java</file>
         </group>
     </open-files>
 </project-private>
