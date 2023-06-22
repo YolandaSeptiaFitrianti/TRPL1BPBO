@@ -19,12 +19,12 @@ import javax.swing.JOptionPane;
  * @author YOLANDA SEPTIA FITRI
  */
 public class AnggotaController {
-    ViewAnggota view;
+    FormAnggota view;
     Anggota anggota;
     AnggotaDao dao;
     Connection connection;
     
-    public AnggotaController(ViewAnggota view){
+    public AnggotaController(FormAnggota view){
         try {
             this.view = view;
             connection = DbHelper.getConnection();
