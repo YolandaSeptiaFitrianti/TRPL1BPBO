@@ -5,7 +5,7 @@
 package Yola.dao;
 
 import Yola.model.Anggota;
-import java.util.*;
+import java.util.List;
 /**
  *
  * @author LAB-MM

@@ -1,12 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package Yola.model;
 
 /**
  *
- * @author YOLANDA SEPTIA FITRI
+ * @author User
  */
 public class Buku {
     private String kodebuku;
@@ -17,42 +18,50 @@ public class Buku {
     public Buku(){
     }
     
-    public Buku (String kodebuku, String judulbuku, String pengarang, String penerbit){
+    public Buku(String kodebuku, String judulbuku, String pengarang, String penerbit) {
         this.kodebuku = kodebuku;
         this.judulbuku = judulbuku;
         this.pengarang = pengarang;
         this.penerbit = penerbit;
     }
-    
-    public String getKodebuku(){
+
+    public String getKodebuku() {
         return kodebuku;
     }
-    
-    public void setKodebuku(String kodebuku){
+
+    public void setKodebuku(String kodebuku) {
         this.kodebuku = kodebuku;
     }
-    
-    public String getJudulbuku(){
+
+    public String getJudulbuku() {
         return judulbuku;
     }
-    
-    public void setJudulbuku(String judulbuku){
+
+    public void setJudulbuku(String judulbuku) {
         this.judulbuku = judulbuku;
     }
-    
-    public String getPengarang(){
+
+    public String getPengarang() {
         return pengarang;
     }
-    
-    public void setPengarang(String pengarang){
+
+    public void setPengarang(String pengarang) {
         this.pengarang = pengarang;
     }
-    
-    public String getPenerbit(){
+
+    public String getPenerbit() {
         return penerbit;
     }
-    
-    public void setPenerbit(String penerbit){
+
+    public void setPenerbit(String penerbit) {
         this.penerbit = penerbit;
+    }
+
+    public String getKodeBuku() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public String getJudulBuku() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

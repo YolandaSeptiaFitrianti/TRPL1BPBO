@@ -3,15 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Yola.controller;
+import java.sql.SQLException;
 import Yola.model.*;
 import Yola.dao.*;
 import Yola.view.*;
-import Yola.db.*;
-import java.sql.*;
 import javax.swing.table.DefaultTableModel;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import Yola.db.DbHelper;
+import java.sql.Connection;
 import javax.swing.JOptionPane;
 
 /**

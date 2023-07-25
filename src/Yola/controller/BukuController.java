@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import Yola.dao.BukuDao;
 import Yola.dao.BukuDaoImpl;
-import Yola.db.DbHelperBuku;
+import Yola.db.DbHelper;
 import Yola.model.Buku;
 import Yola.view.FormBuku;
 
@@ -31,7 +31,7 @@ public class BukuController {
     public BukuController (FormBuku view) {
         try {
             this.view = view;
-            connection = DbHelperBuku.getConnection();
+            connection = DbHelper.getConnection();
             dao = new BukuDaoImpl(connection);
         } catch (SQLException ex) {
             Logger.getLogger(BukuController.class.getName()).log(Level.SEVERE, null, ex);

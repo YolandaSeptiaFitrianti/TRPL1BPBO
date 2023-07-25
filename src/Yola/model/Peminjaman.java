@@ -9,52 +9,50 @@ package Yola.model;
  * @author YOLANDA SEPTIA FITRI
  */
 public class Peminjaman {
-    private String kodeanggota;
-    private String kodebuku;
-    private String kodepeminjaman;
-    private String tglpinjam;
-    private String tglkembali;
+    private Anggota anggota;
+    private Buku buku;
+    private String Tglpinjam;
+    private String Tglkembali;
     
-    public Peminjaman(){
+    public Peminjaman(String b001, String bumi, String tere_Liye, String fajar_Pagi){
     }
     
     public Peminjaman (String kodeanggota, String kodebuku, String kodepeminjaman, String tglpinjam, String tglkembali){
-        this.kodeanggota = kodeanggota;
-        this.kodebuku = kodebuku;
-        this.kodepeminjaman = kodepeminjaman;
-        this.tglpinjam = tglpinjam;
-        this.tglkembali = tglkembali;
+        this.anggota = anggota;
+        this.buku = buku;
+        this.Tglpinjam = tglpinjam;
+        this.Tglkembali = tglkembali;
     }
-    
-    public String getkodeanggota(){
-        return kodeanggota;
+
+    public Anggota getAnggota() {
+        return anggota;
     }
-    
-    public void setkodeanggota(String kodeanggota){
-        this.kodeanggota = kodeanggota;
+
+    public void setAnggota(Anggota anggota) {
+        this.anggota = anggota;
     }
-    
-    public String getkodepeminjaman(){
-        return kodepeminjaman;
+
+    public Buku getBuku() {
+        return buku;
     }
-    
-    public void settglpinjam(String tglpinjam){
-        this.tglpinjam = tglpinjam;
+
+    public void setBuku(Buku buku) {
+        this.buku = buku;
     }
-    
-    public String gettglkembali(){
-        return tglkembali;
+
+    public String getTglpinjam() {
+        return Tglpinjam;
     }
-    
-    public void setPengarang(String pengarang){
-        this.pengarang = pengarang;
+
+    public void setTglpinjam(String Tglpinjam) {
+        this.Tglpinjam = Tglpinjam;
     }
-    
-    public String getPenerbit(){
-        return penerbit;
+
+    public String getTglkembali() {
+        return Tglkembali;
     }
-    
-    public void setPenerbit(String penerbit){
-        this.penerbit = penerbit;
+
+    public void setTglkembali(String Tglkembali) {
+        this.Tglkembali = Tglkembali;
     }
 }

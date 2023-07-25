@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package Yola.dao;
 
@@ -13,27 +14,28 @@ import Yola.model.Buku;
 
 /**
  *
- * @author YOLANDA SEPTIA FITRI
+ * @author User
  */
 public class BukuDaoImpl implements BukuDao{
     private Connection connection;
     
-    public BukuDaoImpl(Connection connection){
+    public BukuDaoImpl(Connection connection) {
         this.connection = connection;
     }
     
     public void insert (Buku buku) throws Exception{
         String sql = "INSERT INTO buku values(?,?,?,?)";
         PreparedStatement ps = connection.prepareStatement(sql);
-        ps.setString(1, buku.getJudulbuku());
-        ps.setString(2, buku.getPengarang());
-        ps.setString(3, buku.getPenerbit());
-        ps.setString(4, buku.getKodebuku());
+        ps.setString(1, buku.getKodebuku());
+        ps.setString(2, buku.getJudulbuku());
+        ps.setString(3, buku.getPengarang());
+        ps.setString(4, buku.getPenerbit());
         ps.executeUpdate();
+        ps.close();
     }
     
-    public void update(Buku buku) throws Exception{
-        String sql = "UPDATE buku SET judulbuku = ?, pengarang = ?, penerbit = ?"
+    public void update (Buku buku) throws Exception {
+        String sql = "UPDATE buku SET judulbuku = ?, pengarang = ?, penerbit = ? "
                 + "WHERE kodebuku = ?";
         PreparedStatement ps = connection.prepareStatement(sql);
         ps.setString(1, buku.getJudulbuku());

@@ -6,7 +6,8 @@ package Yola.dao;
 
 import Yola.model.Anggota;
 import java.sql.*;
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 /**
  *
  * @author LAB-MM

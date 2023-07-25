@@ -5,9 +5,11 @@
 package Yola.db;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
-import Yola.dao.*;
-import Yola.model.*;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.SQLException;
+import Yola.dao.AnggotaDao;
+import Yola.dao.AnggotaDaoImpl;
+import Yola.model.Anggota;
 import javax.swing.JOptionPane;
 /**
  *
@@ -21,6 +23,7 @@ public class DbHelper {
             MysqlDataSource dataSource = new MysqlDataSource();
             dataSource.setURL("jdbc:mysql://localhost/pbo_2211081032");
             dataSource.setUser("root");
+            dataSource.setPort(8111);
             dataSource.setPassword("");
             connection = dataSource.getConnection();
         }
